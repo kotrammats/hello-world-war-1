@@ -7,14 +7,15 @@
 	<packaging>war</packaging>
 	<name>Hello World Web Application Repository</name>
 	<description>Simplest possible Java Webapp</description>
+
+
+
 <properties>
-	<sonar.host.url>http://3.109.152.224:9000/</sonar.host.url>
-        <sonar.login>admin</sonar.login>
-        <sonar.password>admin1</sonar.password>
+         <sonar.host.url>http://43.204.25.33:9000/</sonar.host.url>
+        <sonar.login>sqa_d0e9448bc599f07cdc981fbae494a5da6813b38b</sonar.login>
 </properties>
-	
 <distributionManagement>
-          <repository>
+         <repository>
                   <id>nexus-server</id>
                   <url>http://13.235.73.225:8081/repository/KTS-RELEASE/</url>
         </repository>
@@ -23,7 +24,6 @@
                 <url>http://13.235.73.225:8081/repository/KTS-SNAPSHOT/</url>
         </snapshotRepository>
 </distributionManagement>
-
 
 
 
