@@ -17,11 +17,11 @@
 <distributionManagement>
          <repository>
                   <id>nexus-server</id>
-                  <url>http://13.235.73.225:8081/repository/KTS-RELEASE/</url>
+                  <url>http://13.233.104.120:8081/repository/KTS-RELEASE/</url>
         </repository>
         <snapshotRepository>
                 <id>nexus-server</id>
-                <url>http://13.235.73.225:8081/repository/KTS-SNAPSHOT/</url>
+                <url>http://13.233.104.120:8081/repository/KTS-RELEASE/</url>
         </snapshotRepository>
 </distributionManagement>
 
